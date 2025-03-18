@@ -15,6 +15,7 @@
     ```
 
 - #### Set CLI config url to localhost cluster
+- 
 
     ```bash
     solana config set --url localhost # useful for local development
