@@ -84,3 +84,13 @@
         ```bash
         anchor test --skip-local-validator
         ```
+
+
+# Cool terminal setup
+
+1. Download Tabby
+2. Setup Starship
+3. brew install:
+   -sh-syntax-highlighting
+   -zsh-completions
+   -zsh-autosuggestions
