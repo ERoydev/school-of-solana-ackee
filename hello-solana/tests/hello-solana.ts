@@ -7,6 +7,7 @@ describe("hello-solana", () => {
   // Configure the client to use the local cluster.
   anchor.setProvider(anchor.AnchorProvider.env());
 
+  // Create a reference to my program so i can call methods
   const program = anchor.workspace.HelloSolana as Program<HelloSolana>;
 
   // .Keypair.generate() => Creates random private & public key (private key owned by a user)
