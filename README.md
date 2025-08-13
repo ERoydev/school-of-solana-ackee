@@ -1,8 +1,7 @@
 
-![School of Solana](./.banner/banner.png)
-
 
 # 💜 School of Solana
+- Each `task<taskID>-ERoydev` -> is part of my homework exercises from the course
 
 <p align="left">
 <a href="https://discord.gg/JhTVXUvaEr" target="_blank" rel="noopener noreferrer">
