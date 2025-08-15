@@ -6,7 +6,7 @@
 
 ## Usefull Links
 - [Token Diagram](https://github.com/ERoydev/school-of-solana-ackee/blob/main/Token%20Diagram.png)
-- [SPL Token Example](https://github.com/ERoydev/school-of-solana-ackee/tree/main/Bonus-Tokens/spl-escrow)
+- [SPL Token Example](https://github.com/ERoydev/school-of-solana-ackee/tree/main/Bonus-Tokens/spl-escrow) -> How SPL works, `tests` are good example for frontend integration
 - [Rust Task](https://github.com/ERoydev/school-of-solana-ackee/tree/main/2.lesson/task2-ERoydev)
 - [Programming Model 1](https://github.com/ERoydev/school-of-solana-ackee/tree/main/3.%20Programming%20Model%201/task3-ERoydev)
 - [Programming Model 2](https://github.com/ERoydev/school-of-solana-ackee/tree/main/4.%20Programmin%20Model%202/task4-ERoydev)
