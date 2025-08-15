@@ -1,5 +1,5 @@
 # Here i write the Issues i have found:
--  But this repo have folder from ackee [Common Issues]()
+-  But this repo have folder from ackee [Common Issues](https://github.com/ERoydev/school-of-solana-ackee/tree/main/Common%20Issues)
 
 # SPL TOKENS ISSUES
 ### 1. Issue i have encountered when i have exact same code as in the video, but mine is not compiling:
