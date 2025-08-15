@@ -1,27 +1,16 @@
 
 
 # 💜 School of Solana
-- Each `task<taskID>-ERoydev` -> is part of my homework exercises from the course
-
-<p align="left">
-<a href="https://discord.gg/JhTVXUvaEr" target="_blank" rel="noopener noreferrer">
-   <picture>
-     <source media="(prefers-color-scheme: dark)" srcset="https://img.shields.io/discord/867746290678104064?colorA=21262d&colorB=0000FF&style=flat">
-     <img src="https://img.shields.io/discord/867746290678104064?colorA=f6f8fa&colorB=0000FF&style=flat" alt="Chat">
-   </picture>
- </a>
-</p>
-
-Do you want to learn Rust and be able to code, debug, and review Solana programs? If you are interested in blockchain & crypto and already have previous knowledge in any programming language, enroll in the School of Solana and get certified by Ackee Blockchain. [Sign up](https://ackee.xyz/school-of-solana).
-
-School of Solana Season 6:
-- 100% free
-- 9 weeks, online & in English
-- Start date: October 16, 2024
-- Application deadline: October 13, 2024
-- Certification: around mid Dec
+## Each `task<taskID>-ERoydev` -> is part of my homework exercises from the course
 
 
+## Usefull Links
+- [Token Diagram](https://github.com/ERoydev/school-of-solana-ackee/blob/main/Token%20Diagram.png)
+- [SPL Token Example](https://github.com/ERoydev/school-of-solana-ackee/tree/main/Bonus-Tokens/spl-escrow)
+- Usefull task
+  - [Rust Task](https://github.com/ERoydev/school-of-solana-ackee/tree/main/2.lesson/task2-ERoydev)
+  - [Programming Model 1](https://github.com/ERoydev/school-of-solana-ackee/tree/main/3.%20Programming%20Model%201/task3-ERoydev)
+  - [Programming Model 2](https://github.com/ERoydev/school-of-solana-ackee/tree/main/4.%20Programmin%20Model%202/task4-ERoydev)
 
 
 # 📝 What can I expect during the course?
@@ -55,10 +44,6 @@ We created the [Solana Handbook](https://ackee.xyz/solana/book/) to provide stud
 -----
 
 # 👩‍💻 What to prepare:
-- Git
-- Your favorite IDE (VS Code, IntelliJ, Vim, Sublime (...) Note: the terminal used in the lectures is Warp (warp.dev))
-- The desire to learn new things
-
 - For more info check also the [Dev Setup](./1.lesson/README.md/#dev-setup)
 
 > [!TIP]
@@ -68,24 +53,7 @@ We created the [Solana Handbook](https://ackee.xyz/solana/book/) to provide stud
 
 -----
 
-# 🔬 How to participate:
-- You can **participate** by sending an application: [School of Solana](https://ackee.xyz/school-of-solana)
-
------
-
-# 🎓 Rules for getting a certification:
-As validation of your acquired skills in the Rust language and Solana blockchain, you will receive our Ackee Blockchain certificate, which will serve as future proof of your fundamental knowledge.
-
-Before you rule the world of blockchain and smart contracts, keep in mind the following rules:
-- Miss no more than 2 assignments
-- Output: Development of a functional Solana program
-
------
 
 # What's next?
 If you're interested apply to [School of Solana](https://school-of-solana.beehiiv.com/), or reach out to us on [Discord](https://discord.gg/z3JVuZyFnp).
 
-
-<a href="https://discord.gg/z3JVuZyFnp">
-  <img src="https://discordapp.com/api/guilds/867746290678104064/widget.png?style=banner2" width="250" title="AckeeBlockchain/Discord">
-</a>
