@@ -1,0 +1,19 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      // "@project/anchor": ["anchor/src"],
+      "@project/anchor": ["../anchor_project/src"], // Mapping Path to the Anchor project to use the IDL and exported getProgram function
+      "@/*": ["./src/*"]
+    }
+  }
+}
