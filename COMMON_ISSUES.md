@@ -39,3 +39,19 @@ idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
 - Without the idl-build feature enabled for both crates, the macro can’t “see” the trait impls (Discriminator, insert_types, create_type) for SPL account types.
 - Adding idl-build puts the crates into a build mode that includes all the IDL code paths, which also brings in those trait implementations.
 - Anchor macro was running with half the code hidden behind a disabled feature flag, so the types didn’t “exist” in the macro’s eyes.
+
+
+# LP Mint PDA Storage Before Initialization
+## Problem:
+In Anchor, when creating a pool, the LP token mint account doesn’t exist yet at the point where we want to store its address in the Pool struct. Directly assigning ctx.accounts.lp_mint.key() will fail because the account isn’t initialized.
+
+## Solution:
+Compute the LP mint’s Program Derived Address (PDA) ahead of time using the pool key and a seed, and store it in the pool struct. Anchor will initialize the actual account later, but the Pool account already holds the correct mint address.
+
+```rs
+let (lp_mint_pda, _bump) = Pubkey::find_program_address(
+    &[POOL_LP_MINT_ACCOUNT_SEED.as_bytes(), pool.key().as_ref()],
+    ctx.program_id,    
+);
+pool.lp_mint = lp_mint_pda;
+```
